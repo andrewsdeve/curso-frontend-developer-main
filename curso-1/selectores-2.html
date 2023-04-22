@@ -6,37 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    div p {
-      color: Lime;
+    div p{
+      color: limegreen;
     }
-    div > div {
-      background: plum;
+
+    div>p{
+      background: blue;
     }
-    .es {
-      background: red;
+
+    .es{
+      background-color: red;
     }
-    div + section {
-      background: palevioletred;
-    }
-    div ~ p {
-      color: powderblue;
-    }
+
+
   </style>
 </head>
 <body>
   <div>
     <div>
       <p>Platzi</p>
-      <div class="es">Es</div>
+      <div>
+        <p class="es">No es hijo directo</p>
+      </div>
     </div>
-  </div>
-  <p>Clase de selectores</p>
-  <p>Clase de selectores</p>
-  <section>
-    Es lo mejor
-  </section>
-  <div>
-    Master
   </div>
 </body>
 </html>
